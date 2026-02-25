@@ -1,0 +1,25 @@
+.project-wrapper{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow-x: hidden;
+    margin: 1rem 0;
+}
+.project-container{
+    min-height: 100vh;
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+.project-subtitle{
+    font-size: 1.3rem;
+    background-image: var(--gradient-subtitle);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
